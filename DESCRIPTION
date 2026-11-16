@@ -1,0 +1,14 @@
+Package: m6APrediction
+Type: Package
+Title: Predict m6A Sites from Features
+Version: 1.0.0
+Authors@R: 
+    person("Jialiu", "Ma", email = "Jialiu.Ma24@student.xjtlu.edu.cn", role = c("aut", "cre"))
+Description: A package to predict m6A sites using a pre-trained random forest model based on sequence features.
+License: MIT + file LICENSE
+Encoding: UTF-8
+Depends: 
+    R (>= 3.5.0)
+Imports: 
+    randomForest
+Config/roxygen2/version: 8.1.1
